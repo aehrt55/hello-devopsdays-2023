@@ -3,7 +3,8 @@
   "version": "0.0.0",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prepare": "husky install"
   },
   "author": "",
   "license": "ISC",
@@ -15,5 +16,8 @@
     "url": "https://github.com/aehrt55/hello-devopsdays-2023/issues"
   },
   "homepage": "https://github.com/aehrt55/hello-devopsdays-2023#readme",
-  "description": ""
+  "description": "",
+  "devDependencies": {
+    "husky": "^8.0.0"
+  }
 }
