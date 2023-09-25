@@ -20,8 +20,6 @@ module.exports = {
         message: "chore(release): ${nextRelease.version} [skip ci]",
       },
     ],
+    "@semantic-release/github",
   ],
-  publishConfig: {
-    access: "public",
-  },
 };
