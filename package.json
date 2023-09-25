@@ -19,5 +19,9 @@
   "description": "",
   "devDependencies": {
     "husky": "^8.0.0"
+  },
+  "dependencies": {
+    "@commitlint/cli": "^17.7.1",
+    "@commitlint/config-conventional": "^17.7.0"
   }
 }
